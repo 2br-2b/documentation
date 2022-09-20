@@ -8,9 +8,9 @@ installing and upgrading Nextcloud, manage users, encryption, passwords, LDAP
 setting, and more.
 
 ``occ`` is in the :file:`nextcloud/` directory; for example
-:file:`/var/www/nextcloud` on Ubuntu Linux. ``occ`` is a PHP script. **You must
-run it as your HTTP user** to ensure that the correct permissions are maintained
-on your Nextcloud files and directories.
+:file:`/var/www/nextcloud` on Ubuntu Linux. On Snaps, it is located at
+:file:`/snap/bin/nextcloud.occ`. ``occ`` is a PHP script. **You must run it as your HTTP user**
+to ensure that the correct permissions are maintained on your Nextcloud files and directories.
 
 occ command Directory
 ---------------------
